@@ -995,7 +995,12 @@ body {
         position: relative;
         overflow: hidden;
         background-color: #CBECFF;
-        background-image: url(../img/phone_hand-small_2x.png);
+        background-image: url(../img/phone_hand-small_1x.png);
+
+        @media (min-resolution: 2dppx) {
+            background-image: url(../img/phone_hand-small_2x.png);
+        }
+
         background-size: 375px 498px;
         background-position: 0 0;
         background-repeat: no-repeat;
@@ -1269,7 +1274,12 @@ body {
         margin-top: 25px;
         margin-left: 4px;
         border-radius: 15px 15px 0px 0px;
-        background-image: url(../img/Risk_level_31_small_2x.png);
+        background-image: url(../img/Risk_level_31_small_1x.png);
+
+        @media (min-resolution: 2dppx) {
+            background-image: url(../img/Risk_level_31_small_2x.png);
+        }
+
         background-position: -4px -24px;
         background-repeat: no-repeat;
         background-size: 174px 222px;
@@ -1282,7 +1292,12 @@ body {
         margin-top: 25px;
         margin-left: 4px;
         border-radius: 15px 15px 0px 0px;
-        background-image: url(../img/Risk_level_11_small_2x.png);
+        background-image: url(../img/Risk_level_11_small_1x.png);
+
+        @media (min-resolution: 2dppx) {
+            background-image: url(../img/Risk_level_11_small_2x.png);
+        }
+
         background-position: -4px -24px;
         background-repeat: no-repeat;
         background-size: 174px 222px;
